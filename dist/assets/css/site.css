@@ -723,7 +723,7 @@ body.menu-open { overflow: hidden; }
   max-width: var(--max); margin: 0 auto;
   display: grid;
   grid-template-columns: 1.35fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 1px;
   background: var(--line-strong);
   border: 1px solid var(--line-strong);
@@ -747,7 +747,7 @@ body.menu-open { overflow: hidden; }
 .cell p { color: var(--muted); font-size: 14px; line-height: 1.6; max-width: 38ch; }
 .cell-feature {
   position: relative;
-  grid-row: 1 / span 2;
+  grid-row: 1 / span 3;
   padding: 0;
   min-height: clamp(440px, 62vh, 680px);
   overflow: hidden;
